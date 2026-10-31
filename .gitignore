@@ -1,0 +1,13 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+
+# 运行产物（每次跑都会重新生成）
+data/
+*.log
+temporal.db
+temporal.db-shm
+temporal.db-wal
+
+# 离线安装用的轮子
+wheels/
